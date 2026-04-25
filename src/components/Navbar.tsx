@@ -9,9 +9,7 @@ export default function Navbar() {
 
   const navItems = [
     { name: t('nav_identity'), href: "#identity", icon: User },
-    { name: t('nav_patents'), href: "#patents", icon: Award },
     { name: t('nav_cv'), href: "#cv", icon: BookOpen },
-    { name: t('nav_library'), href: "#library", icon: FileText },
     { name: t('nav_gallery'), href: "#gallery", icon: ImageIcon },
   ];
 

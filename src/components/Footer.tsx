@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h2 className="font-serif text-4xl mb-6">{t('footer_name')}</h2>
             <p className="text-slate-400 max-w-sm leading-relaxed">
-              Advancing the frontiers of Strategic Vigilance through international innovation and rigorous academic research.
+              Advancing the frontiers of Strategic Vigilance through rigorous academic research and international cooperation.
             </p>
           </div>
           
@@ -55,7 +55,6 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} Dr. Meriem Lamrous. {t('footer_rights')}</p>
           <div className="flex gap-8">
             <a href="#identity" className="hover:text-white transition-colors">{t('nav_identity')}</a>
-            <a href="#patents" className="hover:text-white transition-colors">{t('nav_patents')}</a>
             <a href="#cv" className="hover:text-white transition-colors">{t('nav_cv')}</a>
           </div>
         </div>

@@ -28,12 +28,6 @@ export default function Hero() {
             {t('hero_desc')}
           </p>
           
-          <div className="mt-6 flex flex-wrap gap-2">
-            <span className="text-[10px] font-mono bg-slate-100 text-slate-500 px-2 py-1 rounded">PCT/DZ2024/050011</span>
-            <span className="text-[10px] font-mono bg-slate-100 text-slate-500 px-2 py-1 rounded">PCT/DZ2024/050003</span>
-            <span className="text-[10px] font-mono bg-slate-100 text-slate-500 px-2 py-1 rounded">PCT/DZ2024/050002</span>
-          </div>
-          
           <div className="mt-10 flex flex-wrap gap-4">
             <a 
               href="#cv"
